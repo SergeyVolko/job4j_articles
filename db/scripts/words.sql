@@ -1,3 +1,4 @@
+delete from dictionary;
 insert into dictionary(word) values('абакаб');
 insert into dictionary(word) values('абалан');
 insert into dictionary(word) values('абанец');

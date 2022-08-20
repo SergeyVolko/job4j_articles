@@ -30,4 +30,10 @@ public class Article {
     public void setText(String text) {
         this.text = text;
     }
+
+    /*@Override
+    protected void finalize() throws Throwable {
+        System.out.println("Объект удален.");
+        super.finalize();
+    }*/
 }
